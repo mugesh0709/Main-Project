@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 20px 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+                    /****************navigation*******************/
+nav{
+    width: 100%;
+    border-bottom: 1px solid wheat;
+    box-shadow: 0 0 4px gray;
+    backdrop-filter: blur(40px) !important;
+}
+nav .btn{
+    background-color: rgb(63, 63, 233);
+    transition: .3s;
+}
+nav .btn:hover{
+    color: white;
+    background-color: rgb(139, 139, 245);
+}
+nav .nav-link{
+    font-size: 17px;
+    font-weight: 300;
+    transition: .3s ease-in;
+}
+nav .nav-link:hover{
+    transform: translateY(-5px);
+}
+                            /*services page*/
+.services h1{
+    color: #864AF9;
+}                            
+.ser-text p{
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color: #607274;
+    line-height: 25px;
+    text-align: justify;
+    font-size: 17px;
+}
+.ser-img{
+    text-align: end;
+}
+
+                          /*product  page*/
+.product1 .pro1-img{
+    text-align: start;
+}
+
+.product2{
+    background-color: #191919;
+    color: white;
+}
+.product .pro2-img{
+    text-align: end;
+}
+
+
+                                    /*about  page*/
+.about h1{
+    color: #864AF9;
+}
+                                    
+.about-maintext p{
+    font-size: 17px;
+    word-spacing: 2px;
+    text-align: justify;
+    color: #607274;
+}
+
+.about2{
+    background-color: #191919;
+    color: white;
+}
+.about-conimg{
+    text-align: start;
+}
+.about-conimg img{
+    width: 70%;
+}
+.about-context{
+    text-align: start;
+}
+
+.about-lastimg{
+    text-align: center;
+}
+
+                                   /*our team  page*/
+
+                                
+.ourteam h1{
+    color: #864AF9 !important;
+}
+.ourteam img{
+    filter: blur(4px);
+}
+
+                               /*career  page*/
+.career h1{
+    border-bottom: 3px solid red;
+    display: inline-block;
+    color: #864AF9;
+}
+.career p{
+    word-spacing: 2px;
+    font-size: 17px;
+    color: #607274;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .services img{
+        margin: 0 auto;
+    }
+    .services .ser-img{
+        text-align: center;
+    }
+}
+
+
+

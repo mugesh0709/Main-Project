@@ -1,0 +1,296 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+section{
+    padding: 20px 0;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+                    /****************navigation*******************/
+nav{
+    width: 100%;
+    border-bottom: 1px solid wheat;
+    box-shadow: 0 0 4px gray;
+    backdrop-filter: blur(40px) !important;
+}
+nav .btn{
+    background-color: rgb(63, 63, 233);
+    transition: .3s;
+}
+nav .btn:hover{
+    color: white;
+    background-color: rgb(139, 139, 245);
+}
+nav .nav-link{
+    font-size: 17px;
+    font-weight: 300;
+    transition: .3s ease-in;
+}
+nav .nav-link:hover{
+    transform: translateY(-5px);
+}
+
+                           /****************section 2 page*******************/
+.section2{
+    background-color: rgba(0, 0, 0, .8);
+    color: white;
+}                           
+
+                          /****************section 3 page*******************/
+.section3 .card .card-body a{
+    font-size: 40px !important;
+    color: black;
+}                        
+.section3 .card{
+    background-color: #FBF9F1;
+    border: none;
+}
+
+                                  /****************section 4 page*******************/
+.section4{
+    background-color: rgba(0, 0, 0, .9);
+    color: white;
+    padding-top: 30px;
+}                                  
+.section4 .pos{
+    position: relative;
+    width: 350px;
+    height: 340px;
+    background-color: rgb(65, 62, 62);
+    border-radius: 5px;
+}
+.section4 .sec4-img img{
+    position: absolute;
+    top: 30px;
+    right: -50px;
+    border-radius: 10px;
+    z-index: 100;
+}
+.section4 .sec4-img .site{
+    position: absolute;
+    top: 30px;
+    left: -50px;
+}
+.section4 .sec4-text h6{
+    display: inline-block;
+    padding: 7px 12px;
+    animation-name: backcolor;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+}
+@keyframes backcolor{
+    0%{
+        background-color: purple;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: blueviolet;
+    }
+}
+.section4 .sec4-text .btn-view{
+    background-color: rgb(87, 87, 235);
+    padding: 5px20px;
+    color: white;
+}
+
+                /****************section 5 page*******************/
+.section5 .sec5-text .page {
+    border-bottom: 2px solid black;
+    padding: 6px 0px 4px;
+    margin-bottom: 20px;
+
+}
+.section5 .sec5-text .page .page-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section5 .sec5-text .page p{
+    font-size: 20px;
+}
+.section5 .sec5-text .page #plus{
+    color: black;
+}
+.section5 .sec5-text .model{
+    width: 400px;
+}
+.section5 .added{
+    width: 300px;
+    height: 60px;
+    background-color: #E26EE5;
+    color: aliceblue;
+    margin-left: auto;
+    text-align: center;
+    padding: 5px;
+    display: none;
+}
+.section5 .add{
+    display: block;
+}
+
+
+
+             /****************section 6 page*******************/
+.section6{
+    background-color: wheat/*FBF6EE*/;
+}
+.section6 .card{
+    border-radius: 15px;
+    border: none;
+}
+.section6 .card h6{
+    display: inline-block;
+    background-color: wheat;
+    margin-bottom: 15px;
+}
+.section6 .card a{
+    font-size: 30px;
+    color: black;
+}
+
+ /****************section 7 page*******************/
+.section7{
+    background-color: rgba(0, 0, 0, .8);
+    padding: 40px 0 20px;
+    color: white;
+}
+.section7 .bor{
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+.section7 #contact{
+    padding: 20px 0;
+}
+.section7 #contact h2{
+    color: blueviolet;
+}
+.section7 #contact p{
+    color: lightgray;
+}
+.section7 #contact h4{
+    color: #65B741;
+}
+.section7 #contact .social a{
+    display: inline-block;
+    font-size: 35px;
+    margin: 5px;
+    transition: .3s;
+    color: #E26EE5;
+}
+.section7 #contact .social a:hover{
+    transform: translateY(-7px);
+    color: purple;
+}
+.section7 #contact .map iframe{
+    width: 400px;
+    height: 300px;
+    filter: invert(100%);
+}
+
+footer{
+    background-color: #F9E8D9;
+    color: #750E21;
+    text-align: center;
+    padding-top: 5px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 768px){
+    .section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .section1 .sec1-text{
+        padding: 20px 0;
+    }
+    .section1 .sec1-img{
+        text-align: center;
+    }
+
+    .section2{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section2 .sec2-img{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .section4 .center{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    .section4 .sec4-text{
+        padding: 15px 0;
+        margin-bottom: 15px;
+    }
+    
+    .section5 .col-lg-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section5 .sec5-img{
+        margin-bottom: 25px;
+    }
+
+    .section6 .card{
+        margin-bottom: 15px;
+    }
+
+    .section7 #contact .col-md-6{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section7 #contact .map iframe{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+    .section2 .sec2-img{
+        text-align: center;
+    }
+    .section2 .sec2-img img{
+        width: 100%;
+    }
+
+
+    .section4 .pos{
+        width: 270px;
+        height: 280px;
+    }
+
+    .section5 .sec5-text .model{
+        width: 350px;
+    }
+
+}
